@@ -313,7 +313,7 @@ dependencies = [
 [[package]]
 name = "budget-macros"
 version = "0.1.0"
-source = "git+https://github.com/Tollcraft/soroban-budget-assert.git?branch=main#80526df362281aad3ed47520cfc9168227931cc5"
+source = "git+https://github.com/Tollcraft/soroban-budget-assert.git?branch=main#6d49ad82a42b7d6fb0dc740800bf767b358d4e69"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -969,6 +969,7 @@ dependencies = [
 name = "governance"
 version = "0.1.0"
 dependencies = [
+ "budget-macros",
  "curve25519-dalek 5.0.0",
  "receipt-anchor",
  "soroban-sdk",

@@ -1286,7 +1286,6 @@ pub mod close;
 pub mod crypto;
 pub mod delegation;
 pub mod dispute;
-pub mod epoch;
 pub mod hashlock;
 pub mod htlc;
 pub mod multi_asset;
